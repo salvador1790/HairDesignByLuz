@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+}
+
+#headerJumbotron{
+    background-image: linear-gradient(to bottom right, salmon, #8e44ad);
+    height: 500px;
+}
+
+#logo{
+    height: 420px;
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+}
+
+#introduction{
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+#introImg{
+    margin-top: 100px;
+    background-image: url("./images/croped.jpg");
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.24);
+    box-shadow: 10px 10px 5px 0px
+}
+
+#introText{
+    margin-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+}
+
+#appointment{
+    background-color: #8e44ad;
+    height: 40px;
+    width: 200px;
+    border-radius: 25px;
+    color: white;
+    outline: none;
+}
+
+#introText  h1{
+    color: #a86dc2;
+    font-family: 'Baloo Bhai 2';
+    margin: 0;
+}
+
+#description{
+    width: 500px;
+    font-family: 'Baloo Bhai 2';
+}
+
+#address{
+    color: black;
+    text-decoration: none;
+    font-family: 'Baloo Bhai 2';
+    font-size: 25px;
+}
+
+#services{
+    height: 900px;
+}
+
+#serviceHeader{
+    height: 300px;
+    background-image: url("./images/guilherme-petri-PtOfbGkU3uI-unsplash.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+}
+
+#layer{
+    background-color: rgba(142,68,173,0.7);
+    height: 300px;
+}
+
+#layer p{
+    color: white;
+    font-size: 70px;
+    font-family: 'Baloo Bhai 2';
+    text-align: center;
+}
+
+#servicesJumbotron{
+    background-color: white;
+    background-image: url("./images/hair\ design\ by\ luz\ menu\ v1.jpg");
+    width: 900px;
+    height: 900px;
+    margin: auto;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+#gallery{
+    height: 500px;
+    margin-top: 250px;
+    text-align: center;
+    background: #a86dc2;
+}
+
+#gallery h1{
+    font-size: 60px;
+    font-family: 'Baloo Bhai 2';
+    color: white;
+}
+
+#smo{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    margin: auto;
+}
+
+.icon{
+    display: block;
+    margin-right: 40px;
+}
+
+#phone{
+    text-decoration: none;
+    color: black;
+    font-family: 'Baloo Bhai 2';
+    font-size: 25px;
+}
+
