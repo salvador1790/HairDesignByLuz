@@ -19,7 +19,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
     margin-top: 10px;
 }
 
@@ -103,7 +102,6 @@ body{
 
 #gallery{
     height: 500px;
-    margin-top: 250px;
     text-align: center;
     background: #a86dc2;
 }
@@ -117,13 +115,18 @@ body{
 #smo{
     display: flex;
     flex-direction: row;
-    width: 900px;
     margin: auto;
+    justify-content: center;
 }
 
 .icon{
     display: block;
     margin-right: 40px;
+    height: 200px;
+}
+
+.icon:hover{
+    animation: bounce 1s ease-in-out;
 }
 
 #phone{
@@ -131,5 +134,102 @@ body{
     color: black;
     font-family: 'Baloo Bhai 2';
     font-size: 25px;
+}
+
+@media only screen and (max-width: 1000px){
+    #servicesJumbotron{
+        width: 600px;
+        height: 600px;
+        background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    #introduction{
+        height: 950px;
+        flex-direction: column;
+    }
+    #introText{
+        text-align: center;
+        margin-left: 0;
+    }
+    #description{
+        margin: auto;
+    }
+    #introImg{
+        margin: auto;
+    }
+    .icon{
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 699px){
+    #servicesJumbotron{
+        width: 470px;
+        height: 470px;
+        background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    }
+    #services{
+        height: 700px;
+    }
+    .icon{
+        height: 100px;
+    }
+    #gallery{
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 599px){
+    #servicesJumbotron{
+        width: 420px;
+        height: 420px;
+        background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    }
+    #gallery{
+        height: 340px;
+    }
+    #services{
+        height: 600px;
+    }
+    #layer p{
+        font-size: 50px;
+    }
+    #introText{
+        width: 400px;
+        margin: auto;
+    }
+    #description{
+        width: 400px;
+    }
+    #introImg{
+        height: 300px;
+    }
+    #gallery h1{
+        font-size: 50px;
+    }
+}
+
+@keyframes bounce{
+    0%,
+    20%,
+    60%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+    80% {
+        transform: translateY(-20px);
+    }
 }
 
