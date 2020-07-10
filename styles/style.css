@@ -5,6 +5,7 @@ body{
 #links{
     width: 400px;
     margin-left: 35px;
+    display: inline-block;
 }
 
 #links p{
@@ -13,9 +14,10 @@ body{
     font-family: 'Baloo Bhai 2';
 }
 
-#navlogo{
-    height: 70px;
-    display: inline-block;
+#navCall{
+    float: right;
+    margin-top: 7px;
+    margin-right: 10px;
 }
 #headerJumbotron{
     background-image: linear-gradient(to bottom right, salmon, #8e44ad);
