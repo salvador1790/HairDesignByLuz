@@ -2,10 +2,19 @@ body{
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 #links{
     width: 400px;
     margin-left: 35px;
     display: inline-block;
+}
+
+#links a{
+    text-decoration: none;
+    color: black;
 }
 
 #links p{
@@ -202,6 +211,9 @@ body{
     }
     #gallery{
         height: 400px;
+    }
+    #links p{
+        display: none;
     }
 }
 
