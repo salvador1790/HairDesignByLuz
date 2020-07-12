@@ -6,6 +6,14 @@ html {
     scroll-behavior: smooth;
   }
 
+  #navigation{
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+  }
+
 #links{
     width: 400px;
     margin-left: 35px;
@@ -31,6 +39,7 @@ html {
 #headerJumbotron{
     background-image: linear-gradient(to bottom right, salmon, #8e44ad);
     height: 500px;
+    margin-top: 58px;
 }
 
 #logo{
