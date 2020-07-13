@@ -224,6 +224,19 @@ html {
     #links p{
         display: none;
     }
+    #navCall{
+        display: none;
+    }
+    #dropDown{
+        background-image: url("./images/dropdown.png");
+        height: 50px;
+        width: 50px;
+        background-repeat: none;
+        cursor: pointer;
+        background-position: center;
+        background-size: 60px;
+
+    }
 }
 
 @media only screen and (max-width: 599px){

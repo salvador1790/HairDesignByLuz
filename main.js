@@ -22,3 +22,10 @@ $(document).ready(function(){
       } // End if
     });
   });
+
+  const windowWidth = $(window).width();
+
+    if(windowWidth <= 699){
+       
+    }
+  
