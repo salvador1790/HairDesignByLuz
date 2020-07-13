@@ -23,9 +23,12 @@ $(document).ready(function(){
     });
   });
 
-  const windowWidth = $(window).width();
+  //Function to open dropdown
+$(document).ready(function(){
+    $("#dropDown").click(function(){
+        $("#mobileNav").css("display","block");
+    })
 
-    if(windowWidth <= 699){
-       
-    }
+})
+  
   
