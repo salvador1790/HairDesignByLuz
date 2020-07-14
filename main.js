@@ -25,10 +25,14 @@ $(document).ready(function(){
 
   //Function to open dropdown
 $(document).ready(function(){
-    $("#dropDown").click(function(){
-        $("#mobileNav").css("display","block");
-    })
 
+    let dropdown = $("#dropDown");
+
+    $("#dropDown").click(function(){
+        $("#mobileNav").toggleClass("open")
+    })
 })
+
+
   
   

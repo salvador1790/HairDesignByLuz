@@ -43,7 +43,14 @@ html {
     height: auto;
     font-family: 'Baloo Bhai 2';
     padding-left: 33px;
+}
+
+.closed{
     display: none;
+}
+
+.open{
+    display: block;
 }
 
 #mobileNav a{
