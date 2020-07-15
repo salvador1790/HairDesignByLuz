@@ -27,12 +27,11 @@ $(document).ready(function(){
 $(document).ready(function(){
 
     let dropdown = $("#dropDown");
+    let windowWidth = $(window).width();
 
     $("#dropDown").click(function(){
         $("#mobileNav").toggleClass("open")
     })
-
-    
 })
 
 

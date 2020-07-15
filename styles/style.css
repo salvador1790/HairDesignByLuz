@@ -301,6 +301,30 @@ html {
     }
 }
 
+@media only screen and (max-width: 400px){
+    body{
+        width: 420px;
+    }
+    #introText h1{
+        font-size: 25px;
+    }
+    #description{
+        width: 350px;
+    }
+    #servicesJumbotron{
+        width: 370px;
+    }
+    #serviceHeader{
+        height: 250px;
+    }
+    #layer{
+        height: 250px;
+    }
+    .icon{
+        margin-right: 15px;
+    }
+}
+
 @keyframes bounce{
     0%,
     20%,
