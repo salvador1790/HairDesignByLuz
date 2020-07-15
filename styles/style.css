@@ -261,6 +261,14 @@ html {
     }
 }
 
+@media only screen and (min-width: 700px){
+
+    #mobileNav{
+        display: none;
+    }
+
+}
+
 @media only screen and (max-width: 599px){
     #servicesJumbotron{
         width: 420px;

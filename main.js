@@ -31,7 +31,10 @@ $(document).ready(function(){
     $("#dropDown").click(function(){
         $("#mobileNav").toggleClass("open")
     })
+
+    
 })
+
 
 
   
