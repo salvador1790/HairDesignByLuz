@@ -301,7 +301,7 @@ html {
     }
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 414px){
     body{
         width: 420px;
     }
@@ -313,6 +313,8 @@ html {
     }
     #servicesJumbotron{
         width: 370px;
+        height: 400px;
+
     }
     #serviceHeader{
         height: 250px;
